@@ -1,5 +1,8 @@
 import Category from "../assets/images/category.png";
 import CategorySmall from "../assets/images/category-small.png";
+import CategorySmall1 from "../assets/images/category1.png";
+import CategorySmall2 from "../assets/images/category2.png";
+import CategorySmall3 from "../assets/images/category3.png";
 import HomeGame from "./../assets/images/game.png";
 import WildGame from "./../assets/images/wild.png";
 import WildGameSmall from "./../assets/images/wild_small.png";
@@ -25,7 +28,7 @@ export const hottestCategory = [
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall1,
       className: "",
       type: "image",
     },
@@ -35,12 +38,12 @@ export const hottestCategory = [
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall2,
       className: "",
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall3,
       className: "",
       type: "image",
     },
@@ -61,7 +64,7 @@ export const hottestCategory = [
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall1,
       className: "",
       type: "image",
     },
@@ -71,12 +74,12 @@ export const hottestCategory = [
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall2,
       className: "",
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall3,
       className: "",
       type: "image",
     },
@@ -97,7 +100,7 @@ export const hottestCategory = [
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall1,
       className: "",
       type: "image",
     },
@@ -107,12 +110,12 @@ export const hottestCategory = [
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall2,
       className: "",
       type: "image",
     },
     {
-      src: CategorySmall,
+      src: CategorySmall3,
       className: "",
       type: "image",
     },
