@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+  min-width: 320px;
+  scroll-behavior: smooth;
+  body {
+    margin: auto;
+    font-family: "Regular", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
+      "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #3bb77e;
+  /* WebKit/Blink Browsers */
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("./assets/fonts/pingfang-sc-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("./assets/fonts/PingFang-SC-Bold.ttf") format("truetype");
+}
+
+span {
+  margin: 0 !important;
+}
+
+/* Override the margin for the expanded Accordion */
+.MuiAccordion-root.Mui-expanded {
+  margin: 0 !important; /* Ensure this applies */
+}
+
+/* If you want to target the entire Accordion with the MuiPaper class */
+.MuiPaper-root.MuiAccordion-root.Mui-expanded {
+  margin: 0 !important; /* Override margin */
+}
+
+.css-vdjrnq-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  padding: 0 !important;
+}
