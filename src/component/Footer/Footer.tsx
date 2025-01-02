@@ -57,7 +57,7 @@ const sections = [
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={{ padding: '0 2rem' }}>
       <Box
         sx={{
           maxWidth: "124rem",

@@ -42,7 +42,10 @@ const HottestCategory = ({ item }: any) => {
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
-                  padding: "2rem",
+                  padding: {
+                    lg: "2rem",
+                    xs: "1.5rem"
+                  },
                 }}
               >
                 <Box
@@ -79,15 +82,14 @@ const HottestCategory = ({ item }: any) => {
                     variant="body2"
                     sx={{
                       textAlign: "start",
-                      fontSize: "1.4rem",
+                      fontSize: "clamp(1rem, 0.7695rem + 0.7813vw, 1.4rem)",
                       display: "-webkit-box",
                       overflow: "hidden",
                       WebkitBoxOrient: "vertical",
                       WebkitLineClamp: {
                         lg: 3,
                         md: 2,
-                        sm: 1,
-                        xs: 1
+                        xs: 3,
                       },
                       textOverflow: "ellipsis",
                     }}
