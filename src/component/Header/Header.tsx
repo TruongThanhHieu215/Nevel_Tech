@@ -1,9 +1,9 @@
+import MenuIcon from "@mui/icons-material/Menu";
 import { AppBar, Box, Drawer, Link, Toolbar } from "@mui/material";
+import IconButton from "@mui/material/IconButton";
+import React from "react";
 import logo from "../../assets/images/White_logo.png";
 import "./Header.scss";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import React from "react";
 
 const drawerWidth = 240;
 const Header = (props: any) => {
@@ -48,7 +48,16 @@ const Header = (props: any) => {
     window !== undefined ? () => window().document.body : undefined;
   return (
     <>
-      <AppBar position="fixed" className="navbar">
+      <AppBar
+        position="fixed"
+        className="navbar"
+        sx={{
+          background: {
+            xs: "linear-gradient(to bottom, #00000080, #00000000) !important",
+            md: "#00000099 !important",
+          },
+        }}
+      >
         <Toolbar
           className="mw124"
           sx={{

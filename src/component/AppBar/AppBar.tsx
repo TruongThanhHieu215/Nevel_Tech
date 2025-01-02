@@ -116,7 +116,7 @@ export default function AppBar() {
               style={{ margin: 0, width: "2.4rem" }}
             />
           }
-          label={"All Games"}
+          label={"Search"}
           clickable
           sx={{
             ...MENU_STYLE,
